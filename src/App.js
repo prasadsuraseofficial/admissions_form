@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import AdmissionForm from './components/AdmissionForm';
+import logo from "./assets/logo.svg";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src={logo} width="150px" className="row mx-auto m-2" alt="logo" />
+      <AdmissionForm />
+      <div className="mt-3 bg-dark footer">
+        <p className="text-white text-center">All Rights Reserved © Addvic Technology (OPC) Pvt Ltd.</p>
+      </div>
     </div>
   );
 }

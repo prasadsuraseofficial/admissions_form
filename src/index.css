@@ -5,9 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #0F3178 !important;
+  background-color: lightgrey !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input, select, input::placeholder {
+  color: #0F3178 !important;  
+  font-weight: 500 !important;
 }

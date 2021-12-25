@@ -1,0 +1,16 @@
+input, select {
+    border: none !important;
+    padding: 0.5rem !important;
+    margin: 0.5rem !important;
+    border-bottom: 1px solid black !important;
+}
+
+input:focus, select:focus {
+    border-bottom: 2px solid green !important;
+    box-shadow: none !important;
+}
+
+.regForm {
+    border-radius: 25px 0px;
+    font-weight: 500;
+}
